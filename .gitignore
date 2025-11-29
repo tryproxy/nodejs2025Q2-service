@@ -33,3 +33,22 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+
+# Env
+.env
+.env.local
+.env.development
+.env.production
+
+!.evn.example
+!.evn.*.example
+
+# Lock files
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Spec and scripts
+*.sh
+spec.*
